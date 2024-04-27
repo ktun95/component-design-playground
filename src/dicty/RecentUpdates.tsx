@@ -31,24 +31,20 @@ const RecentUpdates = () => {
         <Table size="small">
           <TableBody>
             <TableRow>
-              <TableCell> DBS0236123 </TableCell>
               <TableCell> HAD186 </TableCell>
               <TableCell align="right">
                 <i> 1 day ago </i>
               </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell> DBS0236124 </TableCell>
               <TableCell> RAD213 </TableCell>
               <TableCell align="right"> 3 days ago </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell> DBS0236125 </TableCell>
               <TableCell> HAD186 </TableCell>
               <TableCell align="right"> 1 day ago </TableCell>
             </TableRow>
             <TableRow>
-              <TableCell> DBS0236125 </TableCell>
               <TableCell> HAD186 </TableCell>
               <TableCell align="right"> 1 day ago </TableCell>
             </TableRow>
