@@ -10,7 +10,7 @@ function App() {
     <Grid container justifyContent="center">
       <Grid item>
         <ThemeProvider theme={theme}>
-          <Box style={{ width: "35rem" }}>
+          <Box style={{ width: "40vw" }}>
             <RecentUpdates />
           </Box>
         </ThemeProvider>
