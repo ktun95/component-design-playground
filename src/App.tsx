@@ -1,16 +1,21 @@
 import { RecentUpdates } from "./dicty/RecentUpdates"
-import { Container, ThemeProvider, Box } from "@material-ui/core"
+import { ThemeProvider, Box, Grid } from "@material-ui/core"
+import { createTheme } from "@material-ui/core/styles"
 import { dictyTheme } from "./dicty/dictyTheme"
+
+const theme = createTheme(dictyTheme)
 
 function App() {
   return (
-    <Container>
-      <Box>
-        <ThemeProvider theme={dictyTheme}>
-          <RecentUpdates />
+    <Grid container justifyContent="center">
+      <Grid item>
+        <ThemeProvider theme={theme}>
+          <Box style={{ width: "35rem" }}>
+            <RecentUpdates />
+          </Box>
         </ThemeProvider>
-      </Box>
-    </Container>
+      </Grid>
+    </Grid>
   )
 }
 

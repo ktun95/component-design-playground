@@ -1,4 +1,6 @@
-export const dictyTheme = {
+import { ThemeOptions } from "@material-ui/core"
+
+export const dictyTheme: ThemeOptions = {
   // use color tool for palette -- https://material.io/resources/color/
   palette: {
     primary: {
@@ -19,9 +21,6 @@ export const dictyTheme = {
     },
   },
   typography: {
-    button: {
-      textTransform: "none",
-    },
     h1: {
       fontSize: "2.00em",
     },
